@@ -8,11 +8,12 @@
 		"vscode": {
 			"extensions": [
 				"Vue.volar",
-				"streetsidesoftware.code-spell-checker"
+				"streetsidesoftware.code-spell-checker",
+				"xabikos.JavaScriptSnippets"
 			],
 			"settings": {
 				"editor.fontSize": 16,
-				"editor.formatOnSave": true,
+				"editor.formatOnSave": false,
 				"editor.codeActionsOnSave": {
 					"source.fixAll": "explicit"
 				},
