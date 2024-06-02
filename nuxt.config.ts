@@ -13,5 +13,11 @@ export default defineNuxtConfig({
   css: [
     'primevue/resources/themes/aura-light-green/theme.css',
     'primeicons/primeicons.css',
+    '/node_modules/primeflex/primeflex.css',
   ],
+  runtimeConfig: {
+    public: {
+      backendBaseUrl: process.env.BACKEND_BASE_URL || '/api',
+    },
+  },
 })
